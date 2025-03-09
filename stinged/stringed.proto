@@ -1,0 +1,13 @@
+service Stringed {
+  rpc CreateContainer (CreateContainerRequest) returns ActionStatus {}
+}
+
+
+message ActionStatus {
+  required bool status = 1;
+}
+
+message CreateContainerRequest {
+
+}
+
